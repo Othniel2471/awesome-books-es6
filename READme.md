@@ -174,7 +174,7 @@ To run the project:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add a little bit of styling to add to 90s look im heading towards**
+- [ ] **Add a little bit of styling to the add to 90s look i'm heading towards**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
