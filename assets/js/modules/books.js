@@ -28,7 +28,6 @@ class Books {
       });
     }
 
-    // eslint-disable-next-line class-methods-use-this
      addBooks = () => {
        const title = Books.bookTitle.value;
        const author = Books.bookAuthor.value;
@@ -41,13 +40,11 @@ class Books {
        localStorage.setItem('books', JSON.stringify(Books.books));
      }
 
-     // eslint-disable-next-line class-methods-use-this
      clearField = () => {
        Books.bookTitle.value = '';
        Books.bookAuthor.value = '';
      }
 
-     // eslint-disable-next-line class-methods-use-this
      displayBooks = (book) => {
        const books = JSON.parse(localStorage.getItem('books'));
        const bookContainer = document.querySelector('.books-container');
